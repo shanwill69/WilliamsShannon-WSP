@@ -1,14 +1,29 @@
 body{
-    
+    width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: #a29aa5;
+    margin: 0 auto;
+    padding: 40px;
+}
+h1{
+    text-align: center;
 }
 
 h2 {
     text-decoration: underline;
     text-align: center;
+    background-color: #a29aa5;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 h3{
-
+    font-style: italic;
+    width: 300px;
+    background-color: #ccc;
+    text-align: center;
 
 }
 
