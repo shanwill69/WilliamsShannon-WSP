@@ -1,8 +1,17 @@
-h2 {
+body{
+    
+}
 
+h2 {
+    text-decoration: underline;
+    text-align: center;
 }
 
 h3{
 
 
+}
+
+p{
+    text-align: justify;
 }
