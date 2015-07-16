@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58c396cf-bf51-48bf-b6f5-699f350c445c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/1/comp-01.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/1/comp-01.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/10/comp-10.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/2/comp-02.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/2/comp-02.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/3/comp-03.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/3/comp-03.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/4/comp-04.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/4/comp-04.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/5/comp-05.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/6/comp-06.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/7/comp-07.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/8/comp-08.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/components/9/comp-09.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/computer.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="58c396cf-bf51-48bf-b6f5-699f350c445c" name="Default" comment="" />
     <ignored path="WilliamsShannon-WSP.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
