@@ -1,8 +1,69 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET Blog  Shannon Williams
 ================================================================================ */
 
-/* HEADER ======================================== */
+html{
+    font-size: 62.5%;
+}
 
-/* HEADER ======================================== */
+body{
+    font: 400 1.6em sans-serif;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    border: solid 2px purple;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5em;
+    color: black;
+    font-weight: 100;
+    margin-bottom: 30px;
+
+    border: solid 2px purple;
+}
+
+h2{
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: 100;
+    margin-bottom: 30px;
+    border: solid 2px purple;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+li{
+    line-height: 2;
+}
+
+.second{
+    width:
+    font-size: .7em;
+    line-height: 1.6em;
+    color: #7c7c7c;
+    float: left;
+    border: solid 2px purple;
+}
+
+#main{
+    width: calc(100% / 3 * 2);
+    font-size: .7em;
+    line-height: 1.6em;
+    color: #7c7c7c;
+    float: left;
+    border: solid 2px purple;
+}

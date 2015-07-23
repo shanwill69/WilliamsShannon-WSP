@@ -7,6 +7,17 @@ header{
     margin: 0 auto;
     padding: 40px;
 }
+
+nav{
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+li{
+    display: inline-block;
+}
+
 h1{
     text-align: center;
 }
