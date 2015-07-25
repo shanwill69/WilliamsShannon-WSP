@@ -1,8 +1,39 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - Header - Shannon Williams
 ================================================================================ */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 400em 1.6 sans-serif;
+}
 
-/* HEADER ======================================== */
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
 
-/* HEADER ======================================== */
+img{
+    float: left;
+}
+
+li{
+    display: inline;
+    margin: 10px;
+    font-size: 1.5em;
+    line-height: 30px;
+    color: #982e5b;
+}
+
+nav{
+    text-align: right;
+}
+
+nav:first-child{
+    text-transform: uppercase;
+    padding-top: 35px;
+
+}

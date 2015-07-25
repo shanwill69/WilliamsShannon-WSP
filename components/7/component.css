@@ -1,8 +1,64 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - 2nd Feature - Shannon Williams
 ================================================================================ */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 400em 1.6 sans-serif;
+    color: #546ca5;
+}
+h1{
+    font-family: Gill Sans Light, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #546ca5;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    padding: 5px;
 
-/* HEADER ======================================== */
+}
 
-/* HEADER ======================================== */
+h2{
+    font-family: Gill Sans Light, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    margin-top: 25px;
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article{
+    width: calc(25% - 2rem);
+    margin: 0 1rem;
+    float: left;
+}
+p{
+    font-family: Gill Sans Light, sans-serif;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 10px 0 10px 0;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #546ca5;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1em;
+}

@@ -1,8 +1,26 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - Navigation - Shannon Williams
 ================================================================================ */
 
-/* HEADER ======================================== */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 400em 1.6;
+}
 
-/* HEADER ======================================== */
+li{
+    display: inline-block;
+    font-size: 2em;
+    font-family: sans-serif;
+    margin: 50px 20px 0 50px;
+}
+
+input[type="search"]{
+    margin: 0 auto;
+    border: 1px solid darkgrey;
+    width: 200px;
+    clear: both;
+
+}

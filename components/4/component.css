@@ -3,6 +3,97 @@
 COMPONENT STYLESHEET
 ================================================================================ */
 
-/* HEADER ======================================== */
+html{
+    font-size: 62.5%;
+}
+body {
+    background-color: #eae9e5;
+    font: 400 1.6em sans-serif;
+}
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-/* HEADER ======================================== */
+img.align-center{
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+h1{
+    font: 2em LeckerliOne, sans-serif;
+    color: #9d73d1;
+}
+
+p{
+    color: #78756e;
+    font-family: sans-serif;
+    font-size: .8em;
+}
+
+p#new{
+    font-size: 1.4em;
+    text-transform: uppercase;
+}
+
+p#number{
+    font-size: 1.3em;
+}
+
+p#free{
+    font-family: LeckerliOne;
+}
+
+ul{
+    display:inline-block;
+    text-align: left;
+    color: #78756e;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+li{
+    display: inline-block;
+}
+
+li#hot, li#service{
+    font-family: LeckerliOne;
+    margin: 10px;
+}
+
+article{;
+    color: white;
+    width: calc(25% - 2rem);
+    margin: 0 1rem;
+    padding: 1rem;
+    float: left;
+    height: 150px;
+}
+
+article#one{
+    background-color: #b4acb5;
+    border: 2px dashed #a5997f;
+    font: 1.5em LeckerliOne, sans-serif;
+    color: white;
+}
+
+article#two{
+    background-color: #d5b7e2;
+    border: 2px dashed #a5997f;
+    font: 1.5em LeckerliOne, sans-serif;
+    color: white;
+}
+
+article#three{
+    background-color: #b5b36d;
+    border: 2px dashed #a5997f;
+    font: 1.5em LeckerliOne, sans-serif;
+    color: white;
+}
+
+article#four{
+    background-color: #d3c9b4;
+    border: 2px dashed #a5997f;
+}

@@ -15,7 +15,6 @@ section{
     max-width: 1200px;
     margin: 0 auto;
     text-align: left;
-    border: solid 2px purple;
 }
 
 section::after{
@@ -30,40 +29,52 @@ h1{
     color: black;
     font-weight: 100;
     margin-bottom: 30px;
-
-    border: solid 2px purple;
 }
+button{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    background-color: orange;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 25px;
 
+}
 h2{
     text-align: left;
-    font-size: 2.5em;
+    font-size: 3em;
     font-weight: 100;
+    color: black;
     margin-bottom: 30px;
-    border: solid 2px purple;
+    padding: 10px;
 }
 
 ul{
     margin-bottom: 30px;
+    list-style-type: circle;
 }
 
 li{
-    line-height: 2;
+    line-height: 3;
+    font-size: 1.5em;
+    margin-left: 50px;
 }
 
-.second{
-    width:
-    font-size: .7em;
-    line-height: 1.6em;
-    color: #7c7c7c;
-    float: left;
-    border: solid 2px purple;
-}
-
-#main{
+section{
     width: calc(100% / 3 * 2);
     font-size: .7em;
     line-height: 1.6em;
     color: #7c7c7c;
+    padding: 30px;
     float: left;
-    border: solid 2px purple;
+}
+
+section:nth-of-type(2){
+    width: calc(33.33333333333333% - 2rem);
+}
+
+p{
+    line-height: 1.8;
+    margin: 15px 0 15px 0;
+    font-size: 1.2em;
 }

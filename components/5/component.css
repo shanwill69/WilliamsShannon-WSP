@@ -1,8 +1,54 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - CTA - Shannon Williams
 ================================================================================ */
+html{
+    font-size: 62.5%;
+}
 
-/* HEADER ======================================== */
+body{
+    font: 400 1.6em sans-serif;
+}
 
-/* HEADER ======================================== */
+section{
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article{
+    width: 75%;
+    float: left;
+    font-family: bookman oldstyle;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+ul#one{
+    background-color: #ffc93f;
+}
+
+ul#two{
+    background-color: #b143a7;
+}
+li{
+    display: inline-block;
+    color: white;
+
+}
+
+li#every{
+    font-size: 2em;
+}
+
+li#over{
+    font-size: 2em;
+}
+
+

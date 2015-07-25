@@ -1,8 +1,54 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - Footer - Shannon Williams
 ================================================================================ */
 
-/* HEADER ======================================== */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 400em 1.6 sans-serif;
+}
 
-/* HEADER ======================================== */
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+article{
+    width: calc(33.33333333333333% - 2rem);
+    margin: 0 1rem;
+    float: left;
+    font-size: 1.5em;
+    color: darkgrey;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 2;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: dimgrey;
+}
+
+p{
+    text-transform: capitalize;
+    font-size: 1.5em;
+    color: dimgrey;
+}
+
+input{
+    width: 250px;
+    border: 2px solid dimgrey;
+}
+

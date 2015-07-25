@@ -1,8 +1,73 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - Contact -  Shannon Williams
 ================================================================================ */
 
-/* HEADER ======================================== */
+html{
+    font-size: 62.5%;
+}
 
-/* HEADER ======================================== */
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    font: 400 1.6em sans-serif;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dae3f7+0,fcfcfc+37 */
+    background: rgb(218,227,247); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(218,227,247,1) 0%, rgba(252,252,252,1) 37%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(218,227,247,1)), color-stop(37%,rgba(252,252,252,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(218,227,247,1) 0%,rgba(252,252,252,1) 37%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(218,227,247,1) 0%,rgba(252,252,252,1) 37%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(218,227,247,1) 0%,rgba(252,252,252,1) 37%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(218,227,247,1) 0%,rgba(252,252,252,1) 37%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dae3f7', endColorstr='#fcfcfc',GradientType=0 ); /* IE6-9 */
+}
+
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #556da6;
+}
+
+img{
+    max-width: 1200px;
+    padding: 5px;
+}
+
+p{
+    display: inline-block;
+}
+
+input{
+    width: 375px;
+    margin: 10px;
+    background-color: #556da6;
+    color: white;
+    border-radius: 12px;
+    padding: 15px;
+}
+
+input[type="submit"]{
+    background-color: #dc6c8f;
+    width: 100px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+textarea{
+    width: 1200px;
+    margin: 10px;
+    background-color: #556da6;
+    color: white;
+    border-radius: 12px;
+    padding: 10px;
+    border: solid 2px #556da6;
+}

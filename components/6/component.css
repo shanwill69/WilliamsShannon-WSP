@@ -1,8 +1,55 @@
 /* 
 ================================================================================
-COMPONENT STYLESHEET
+COMPONENT STYLESHEET - Feature - Shannon Williams
 ================================================================================ */
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 400em 1.6 sans-serif;
+}
 
-/* HEADER ======================================== */
+section{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
 
-/* HEADER ======================================== */
+section::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+article{
+    width: calc(25% - 2rem);
+    margin: 0 1rem;
+    float: left;
+}
+
+li{
+    font-family: Gill Sans Light, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -10px;
+    padding: 25px 25px 0 0;
+    font-size: 2em;
+    text-align: center;
+    width: 270px;
+    height: 75px;
+}
+
+li#rose{
+    background-color: #f15168;
+}
+li#tulip{
+    background-color: #fda82e;
+}
+li#daisy{
+    background-color: #e55198;
+}
+li#crocus{
+    background-color: #b86db7;
+}
