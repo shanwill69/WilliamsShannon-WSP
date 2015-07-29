@@ -36,14 +36,14 @@ h1{
 h2{
     color: #b5b324;
     text-transform: uppercase;
-    font-size: .8em;
+    font-size: 1em;
     font-weight: 600;
-    margin-bottom: 2em;
+    margin: 2em 0 1em 0;
 }
 
 article{
-    font-size: .8em;
-    width: calc(33.33333333333333% - 2rem);
+    font-size: 1em;
+    width: calc(100% / 3 - 2rem);
     margin: 0 1rem;
     padding: 1rem;
     float: left;

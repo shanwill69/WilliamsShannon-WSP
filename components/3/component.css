@@ -55,11 +55,14 @@ input{
     padding: 15px;
 }
 
-input[type="submit"]{
+button{
     background-color: #dc6c8f;
     width: 100px;
+    font-size: 1em;
+    text-transform: uppercase;
+    color: white;
     padding: 20px;
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 textarea{

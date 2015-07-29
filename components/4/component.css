@@ -72,28 +72,28 @@ article{;
     height: 150px;
 }
 
-article#one{
+article:first-child{
     background-color: #b4acb5;
     border: 2px dashed #a5997f;
     font: 1.5em LeckerliOne, sans-serif;
     color: white;
 }
 
-article#two{
+article:nth-of-type(2){
     background-color: #d5b7e2;
     border: 2px dashed #a5997f;
     font: 1.5em LeckerliOne, sans-serif;
     color: white;
 }
 
-article#three{
+article:nth-of-type(3){
     background-color: #b5b36d;
     border: 2px dashed #a5997f;
     font: 1.5em LeckerliOne, sans-serif;
     color: white;
 }
 
-article#four{
+article:nth-of-type(4){
     background-color: #d3c9b4;
     border: 2px dashed #a5997f;
 }
