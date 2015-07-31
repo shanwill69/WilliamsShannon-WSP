@@ -8,6 +8,7 @@ html{
 
 body{
     font: 400 1.6em sans-serif;
+    background-color: #ccc;
 }
 
 section{
@@ -22,33 +23,43 @@ section::after{
     clear: both;
 }
 
+
 article{
-    width: 75%;
+    width: calc(100% / 3 * 2 - 2rem);
     float: left;
+    padding: 20px;
+}
+article:last-child{
+    width: calc(100% / 3 - 2rem);
     font-family: bookman oldstyle;
     text-transform: uppercase;
     text-align: center;
 }
 
-ul#one{
+
+h1{
+    font-size: 2em;
     background-color: #ffc93f;
+    padding-top: 50px;
 }
 
-ul#two{
+p{
+    background-color: #ffc93f;
+    padding-bottom: 50px
+}
+
+h1:last-of-type{
+    background-color: #b143a7;
+    margin-top: 50px;
+}
+
+p:last-of-type{
     background-color: #b143a7;
 }
-li{
-    display: inline-block;
-    color: white;
 
-}
 
-li#every{
-    font-size: 2em;
-}
 
-li#over{
-    font-size: 2em;
-}
+
+
 
 

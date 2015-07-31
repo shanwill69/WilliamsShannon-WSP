@@ -24,7 +24,7 @@ section::after{
 }
 
 article{
-    width: calc(33.33333333333333% - 2rem);
+    width: calc(100% / 3 - 2rem);
     margin: 0 1rem;
     float: left;
     font-size: 1.5em;

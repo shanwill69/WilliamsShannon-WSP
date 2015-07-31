@@ -25,11 +25,15 @@ section::after{
 
 article{
     width: calc(25% - 2rem);
-    margin: 0 1rem;
+    margin: 1rem;
+    padding-top: 1rem;
     float: left;
 }
 
-li{
+p{
+    width: calc(25% - 2rem);
+    margin: 0 1rem;
+    float: left;
     font-family: Gill Sans Light, sans-serif;
     text-transform: uppercase;
     color: white;
@@ -41,15 +45,15 @@ li{
     height: 75px;
 }
 
-li#rose{
+article#brights{
     background-color: #f15168;
 }
-li#tulip{
+article#magic{
     background-color: #fda82e;
 }
-li#daisy{
+article#hugs{
     background-color: #e55198;
 }
-li#crocus{
+article#kaleidoscope{
     background-color: #b86db7;
 }

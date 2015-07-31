@@ -22,65 +22,84 @@ img.align-center{
     border-radius: 10px;
 }
 
-h1{
-    font: 2em LeckerliOne, sans-serif;
+h1:first-of-type{
+    font: 2.5em LeckerliOne, sans-serif;
     color: #9d73d1;
 }
 
-p{
+h1{
     color: #78756e;
-    font-family: sans-serif;
-    font-size: .8em;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-p#new{
-    font-size: 1.4em;
-    text-transform: uppercase;
+h2{
+    color: white;
+    font-size: 1.5em;
+
 }
 
-p#number{
-    font-size: 1.3em;
-}
-
-p#free{
-    font-family: LeckerliOne;
-}
-
-ul{
-    display:inline-block;
-    text-align: left;
+h3{
     color: #78756e;
-    margin-left: 25px;
-    margin-right: 25px;
+    margin-bottom: 20px;
 }
 
-li{
-    display: inline-block;
+section:nth-child(2){
+    width: 120px;
+    height: 120px;
+    background-color: #9d73d1;
+    border-radius: 50%;
+    opacity: .4;
+    margin-bottom: 15px;
+
+}
+section:nth-child(3){
+    width: 500px;
+    background-color: #a5997f;
+    color: white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    opacity: .6;
 }
 
-li#hot, li#service{
+p#hot, p#services{
+    color: black;
     font-family: LeckerliOne;
-    margin: 10px;
+    font-size: 1.5em;
+}
+
+p:first-child{
+    font-family: LeckerliOne;
+    color: white;
+    padding-top: 35px;
+}
+
+p:last-child{
+    color: white;
+}
+p:only-of-type{
+    color: white;
+    font-family: Adobe Arabic;
 }
 
 article{;
     color: white;
     width: calc(25% - 2rem);
     margin: 0 1rem;
-    padding: 1rem;
+    padding: 2rem;
     float: left;
     height: 150px;
 }
 
 article:first-child{
-    background-color: #b4acb5;
+    background-color: #d2d676;
     border: 2px dashed #a5997f;
     font: 1.5em LeckerliOne, sans-serif;
     color: white;
 }
 
 article:nth-of-type(2){
-    background-color: #d5b7e2;
+    background-color: #b4acb5;
     border: 2px dashed #a5997f;
     font: 1.5em LeckerliOne, sans-serif;
     color: white;
@@ -94,6 +113,6 @@ article:nth-of-type(3){
 }
 
 article:nth-of-type(4){
-    background-color: #d3c9b4;
+    background-color: #d5b7e2;
     border: 2px dashed #a5997f;
 }
